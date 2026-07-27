@@ -1,0 +1,49 @@
+:root {
+
+    --transition:300ms;
+
+}
+
+/* DARK */
+
+[data-theme="dark"]{
+
+    --bg:#0D1117;
+
+    --sidebar:#161B22;
+
+    --card:#1F2937;
+
+    --editor:#111827;
+
+    --text:#F8FAFC;
+
+    --secondary:#94A3B8;
+
+    --primary:#3B82F6;
+
+    --border:#2D3748;
+
+}
+
+/* LIGHT */
+
+[data-theme="light"]{
+
+    --bg:#F4F7FC;
+
+    --sidebar:#FFFFFF;
+
+    --card:#FFFFFF;
+
+    --editor:#FFFFFF;
+
+    --text:#1E293B;
+
+    --secondary:#64748B;
+
+    --primary:#2563EB;
+
+    --border:#E2E8F0;
+
+}

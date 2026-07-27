@@ -1,0 +1,73 @@
+body{
+
+transition:
+
+background .4s ease,
+
+color .4s ease;
+
+}
+
+.ai-chip{
+
+width:140px;
+
+height:140px;
+
+border-radius:28px;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+font-size:40px;
+
+font-weight:bold;
+
+background:linear-gradient(
+135deg,
+#2563eb,
+#7c3aed
+);
+
+box-shadow:
+
+0 0 20px #2563eb,
+
+0 0 60px #2563eb;
+
+animation:
+
+pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+0%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.08);
+
+box-shadow:
+
+0 0 30px #3b82f6,
+
+0 0 90px #2563eb;
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}
